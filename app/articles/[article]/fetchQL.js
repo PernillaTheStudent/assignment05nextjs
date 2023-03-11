@@ -1,10 +1,10 @@
 function fetchQL(article) {
-  console.log('fetchQL', article)
-  return fetch('https://api.disneyapi.dev/graphql', {
-    cache: 'no-store',
-    method: 'POST',
+  console.log("fetchQL", article);
+  return fetch("https://api.disneyapi.dev/graphql", {
+    cache: "no-store",
+    method: "POST",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({
       query: `
@@ -28,7 +28,7 @@ function fetchQL(article) {
       `,
       variables: {},
     }),
-  })
+  });
 }
 
-export default fetchQL
+export default fetchQL;

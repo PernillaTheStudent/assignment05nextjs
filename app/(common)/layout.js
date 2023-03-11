@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
 import pwIcon from "../../public/assets/pwIcon.svg";
@@ -27,5 +27,5 @@ export default function PortfolioLayout({ children }) {
       </nav>
       {children}
     </>
-  )
+  );
 }

@@ -10,10 +10,10 @@
 
   --font-color-primary: rgba(86, 67, 105, 1);
   --font-color-light: rgba(249, 247, 239, 1);
-  --font-color-red: #C33744;
+  --font-color-red: #c33744;
 
   --background-color: rgba(249, 247, 239, 1);
-  --background-color-secondary: rgba(245, 194, 87, 0.1);  
+  --background-color-secondary: rgba(245, 194, 87, 0.1);
 }
 
 html {
@@ -28,7 +28,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   margin: 0;
-  background-color: #F9F7EF;
+  background-color: #f9f7ef;
   font-family: var(--font-lora);
 }
 
@@ -53,7 +53,11 @@ p {
   font-family: var(--font-lora);
   font-size: 2rem;
 }
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-montserrat);
 }
 p.ingress {

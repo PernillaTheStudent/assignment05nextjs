@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "preview": "next start",
     "lint": "next lint",
-    "prettier": "npx prettier --check"
+    "prettier": "npx prettier --write"
   },
   "dependencies": {
     "eslint": "8.35.0",
@@ -15,9 +15,11 @@
     "next": "^13.2.3",
     "npm": "^9.6.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "vercel": "^28.16.15"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^8.7.0",
     "prettier": "^2.8.4"
   }
 }

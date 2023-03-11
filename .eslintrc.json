@@ -1,3 +1,17 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "next", 
+    "prettier",
+    "eslint-config-prettier"
+  ],
+  "rules": {
+    "indent": ["warn", 2],
+    "semi": ["warn", "always"],
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+
+    // override "eslint:recommended"
+    "no-empty": "warn"
+  }
 }
