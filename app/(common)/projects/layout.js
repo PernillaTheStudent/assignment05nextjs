@@ -11,9 +11,10 @@ export default function ProjectsLayout({ children }) {
         <aside className={styles.aside}>
           <div className={`${styles.block} ${styles.menu}`}>
             <h3>Javascript, jQuery, APIs</h3>
-            <Link href="/projects/superhero">Superheros</Link>
+            <Link href="/projects/superhero">Superhero indeX</Link>
             <br />
-            <h3>React & Next.js</h3>
+            <h3>React & Next.js 13</h3>
+            <Link href="/projects/portfolio">Portfolio</Link>
             <Link href="/projects/assignment-01">First React site</Link>
             <Link href="/projects/assignment-02">Assigment no02</Link>
             <Link href="/projects/assignment-03">Assigment no03</Link>

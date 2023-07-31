@@ -13,7 +13,7 @@ export default function Superhero({ params }) {
       <p className={styles.ingress}>
         The aim for this project was to create a webpage that dynamically loads data from an API. Techniques used are HTML, CSS, Vanilla JS and jQuery.
       </p>
-      <h2>Superhero Index</h2>
+      <h2>Superhero indeX</h2>
       <div style={{ width: "100%", display: "flex", marginBottom: "20px" }}>
         <Image
           className={heroStyle.hero}
