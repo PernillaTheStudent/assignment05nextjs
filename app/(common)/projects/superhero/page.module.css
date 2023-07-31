@@ -1,0 +1,10 @@
+.hero {
+  display: block;
+  width: 48%;
+  height: 48%;
+}
+.single {
+  width: 90%;
+  height: 90%;
+  max-width: 410px;;
+}
