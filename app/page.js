@@ -32,7 +32,7 @@ export default function Home() {
             <p className={`${styles.ingress}`}>
             Aspiring frontend developer, crafting inspiring web solutions. Let&apos;s shape the digital future together. Join me on this journey.
             </p>
-            <Link className={styles.button} href="/projects/assignment-01?">
+            <Link className={styles.button} href="/projects">
               <span>Explore more</span>
             </Link>
           </div>

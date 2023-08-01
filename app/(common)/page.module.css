@@ -34,6 +34,21 @@
   justify-content: center;
 }
 
+.main a {
+  font-family: var(--font-montserrat);
+  color: var(--font-color-primary);
+  display: block;
+  font-size: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 1.2rem;
+  text-decoration: underline;
+  padding: 0 0 0 0;
+  /* margin-left: 16px; */
+  -webkit-font-smoothing: antialiased;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row;
