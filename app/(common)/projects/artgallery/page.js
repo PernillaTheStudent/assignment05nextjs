@@ -2,7 +2,7 @@ import galleryStyle from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import galleryMacOne from "../assets/galleryMac1.png";
-import nickelFox from "../assets/nickelFoxDesign.png";
+import nickelfox from "../assets/nickelfoxDesign.png";
 import styles from "../page.module.css";
 
 export default function ArtGallery({ params }) {
@@ -29,7 +29,7 @@ export default function ArtGallery({ params }) {
           className={galleryStyle.single}
           // style={{ marginBottom: "22px" }}
           alt="First React site"
-          src={nickelFox}
+          src={nickelfox}
           width={1000}
           height={750}
         />
