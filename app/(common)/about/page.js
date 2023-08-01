@@ -9,42 +9,20 @@ export default function Contact() {
       <section className={styles.content}>
         <h1>About & History</h1>
         <p className={styles.ingress}>
-          Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-          suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
-          maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales
-          sodales.
+          I currently study to become proficient in frontend development with a focus on React and Next.js 13. I have a passion for creating visually appealing and interactive web experiences that makes a delightful user experience. 
         </p>
-        <h2>Creating React state as an array</h2>
+        <h2>PW codex</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-          mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
-          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
-          tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-          suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
-          maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales
-          sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat
-          placerat.
+          The foundation of my frontend skills were laid with insatiable curiosity for HTML, CSS and Vanilla JavaScript. The next step was embracing the power of React and Next.js 13, appreciating their ability to build robust and dynamic applications. This is my on-going work to deepend that knowledge.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-          mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
-          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
-          tellus.
-        </p>
-        <p>
-          Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-          suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
-          maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales
-          sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat
-          placerat. In iaculis arcu eros, eget tempus orci facilisis id.Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.
-          Aliquam in hendrerit urna. Pellentesque sit
+          While frontend development is the core of my work, I have also touched the techniques used in backend such as database management and authentication. I find immense value understanding how the two sides of web development complement each other, creating holistic and seamless web solutions.
         </p>
       </section>
       <aside className={styles.aside}>
-        <div className={styles.block}>
+        {/* <div className={styles.block}>
           <Link href="/articles/1">Disney channel</Link>
-        </div>
+        </div> */}
       </aside>
       <div className={styles.decoreElement}>
         <Image

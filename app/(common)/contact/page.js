@@ -7,43 +7,19 @@ export default function Contact() {
   return (
     <main className={styles.main}>
       <section className={styles.content}>
-        <h1>Contact</h1>
+        <h1>Welcome to contact</h1>
         <p className={styles.ingress}>
-          Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-          suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
-          maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales
-          sodales.
+          Feel free to drop me a line, whether you have a question, feedback, or a collaboration opportunity, this is the place to reach out.
         </p>
-        <h2>Creating React state as an array</h2>
+        <h2>Let's start a conversation</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-          mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
-          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
-          tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-          suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
-          maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales
-          sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat
-          placerat.
+          Your thoughts, ideas, and inquiries are invaluable.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-          mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
-          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
-          tellus.
-        </p>
-        <p>
-          Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-          suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
-          maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales
-          sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat
-          placerat. In iaculis arcu eros, eget tempus orci facilisis id.Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.
-          Aliquam in hendrerit urna. Pellentesque sit
-        </p>
+        <Link href="mailto:pernilla.codex@gmail.com">Send me an email</Link>
       </section>
       <aside className={styles.aside}>
         <div className={styles.block}>
-          <Link href="/articles/1">Disney channel</Link>
+          {/* <Link href="/articles/1">Disney channel</Link> */}
         </div>
       </aside>
       <div className={styles.decoreElement}>
