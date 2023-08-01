@@ -41,7 +41,7 @@ export default function Superhero({ params }) {
           height={809}
         />
       </div>
-      <p>When clicking on a hero, the quaities of that character is listed, as for example Strength, Speed, Power and if they have good or bad alignment. You can also switch between dark and light mode.</p>
+      <p>When clicking on a hero, the qualities of that character is listed, as for example Strength, Speed, Power and if they have good or bad alignment. You can also switch between dark and light mode.</p>
       <Link href="https://pernillathestudent.github.io/mySuperHeroes/" target="_blank">SuperHero Index Webpage</Link>
 
     </>
