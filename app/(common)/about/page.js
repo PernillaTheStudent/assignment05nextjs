@@ -3,7 +3,7 @@ import styles from "../../(common)/page.module.css";
 import Image from "next/image";
 import patternSmall from "../../../public/assets/portfolioPatternSmall.svg";
 
-export default function Contact() {
+export default function About() {
   return (
     <main className={styles.main}>
       <section className={styles.content}>

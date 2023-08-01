@@ -11,7 +11,7 @@ export default function Contact() {
         <p className={styles.ingress}>
           Feel free to drop me a line, whether you have a question, feedback, or a collaboration opportunity, this is the place to reach out.
         </p>
-        <h2>Let's start a conversation</h2>
+        <h2>Let&apos;s start a conversation</h2>
         <p>
           Your thoughts, ideas, and inquiries are invaluable.
         </p>
