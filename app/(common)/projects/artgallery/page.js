@@ -1,7 +1,7 @@
 import galleryStyle from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import galleryMacOne from "../assets/galleryMac1.png";
+import galleryMacTwo from "../assets/galleryMac2.png";
 import nickelfox from "../assets/nickelfoxDesign.png";
 import styles from "../page.module.css";
 
@@ -17,8 +17,8 @@ export default function ArtGallery({ params }) {
         <Image
           className={galleryStyle.single}
           // style={{ marginBottom: "22px" }}
-          alt="First React site"
-          src={galleryMacOne}
+          alt="Art Gallery"
+          src={galleryMacTwo}
           width={1000}
           height={844}
         />
@@ -28,7 +28,7 @@ export default function ArtGallery({ params }) {
         <Image
           className={galleryStyle.single}
           // style={{ marginBottom: "22px" }}
-          alt="First React site"
+          alt="Design Layout for Art Gallery"
           src={nickelfox}
           width={1000}
           height={750}
