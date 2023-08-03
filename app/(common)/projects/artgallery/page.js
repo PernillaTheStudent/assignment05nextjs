@@ -35,7 +35,7 @@ export default function ArtGallery({ params }) {
         />
       </div>
       <p>The app is designed after a layout from Nickelfox design. I have strived to follow the design guides as far as it fitted this project.</p>
-      <Link href="https://art-gallery-one-teal.vercel.app/" target="_blank">Art Gallery - art from the Art Institute of Chicago</Link>
+      <Link href="https://art-gallery-one-teal.vercel.app/" alt="Art Gallery" target="_blank">Art Gallery - art from the Art Institute of Chicago</Link>
 
     </>
   );

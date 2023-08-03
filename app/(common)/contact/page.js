@@ -7,13 +7,9 @@ export default function Contact() {
   return (
     <main className={styles.main}>
       <section className={styles.content}>
-        <h1>Welcome to contact</h1>
+        <h1>Welcome to contact me</h1>
         <p className={styles.ingress}>
           Feel free to drop me a line, whether you have a question, feedback, or a collaboration opportunity, this is the place to reach out.
-        </p>
-        <h2>Let&apos;s start a conversation</h2>
-        <p>
-          Your thoughts, ideas, and inquiries are invaluable.
         </p>
         <Link href="mailto:pernilla.codex@gmail.com">Send me an email</Link>
       </section>

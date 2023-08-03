@@ -13,11 +13,12 @@ export default function About() {
         </p>
         <h2>PW codex</h2>
         <p>
-          The foundation of my frontend skills were laid with insatiable curiosity for HTML, CSS and Vanilla JavaScript. The next step was embracing the power of React and Next.js 13, appreciating their ability to build robust and dynamic applications. This is my on-going work to deepen that knowledge.
+          The foundation of my frontend skills were laid with a profound interest in HTML, CSS and Vanilla JavaScript. The next step was embracing the power of React and Next.js 13, appreciating their ability to build robust and dynamic applications. This is my on-going work to deepen that knowledge.
         </p>
         <p>
-          While frontend development is the core of my work, I have also touched the techniques used in backend such as database management and authentication. I find immense value understanding how the two sides of web development complement each other, creating holistic and seamless web solutions.
+          While frontend development is the core of my work, I have also touched the techniques used in backend such as database management and authentication. I find it deeply helpful understanding how the two sides of web development complement each other, in creating holistic and seamless web solutions.
         </p>
+        <Link href="https://cmeducations.se/utbildningar/program/frontend-app-developer" alt="Frontend/App developer" target="_blank">Frontend / App Developer at CM Educations</Link>
       </section>
       <aside className={styles.aside}>
         {/* <div className={styles.block}>

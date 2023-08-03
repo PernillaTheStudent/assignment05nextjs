@@ -28,9 +28,9 @@ export default function Home() {
           </div>
           <div className={styles.content}>
             <h1>code(x)</h1>
-            <h2>where design meets code</h2>
+            <h2>Where design meets code</h2>
             <p className={`${styles.ingress}`}>
-            Frontend developer in the making. My dedication to reliable and well-crafted code intrigues me to build websites that leave a positive impact on users. Join me on this journey. 
+            Frontend developer in the making. My dedication to reliable and well-crafted code intrigues me to build websites that leave a positive impact on users. Feel free to reach out or explore more. 
             </p>
             <Link className={styles.button} href="/projects">
               <span>Explore more</span>
