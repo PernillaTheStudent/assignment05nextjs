@@ -16,6 +16,7 @@ export default function ProjectsLayout({ children }) {
             <h3>React & Next.js 13</h3>
             <Link href="/projects/portfolio">Portfolio</Link>
             <Link href="/projects/artgallery">Art Gallery</Link>
+            <Link href="/projects/react/3">Dashboard design</Link>
             <Link href="/projects/react/1">First React site</Link>
             {/* <Link href="/projects/assignment-02">Assigment no02</Link>
             <Link href="/projects/assignment-03">Assigment no03</Link> */}
