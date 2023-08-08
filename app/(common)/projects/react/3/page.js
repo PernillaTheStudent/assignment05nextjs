@@ -8,9 +8,9 @@ import styles from "../../page.module.css";
 export default function Portfolio({ params }) {
   return (
     <>
-      <h1>Pixel perfect design with interactivity</h1>
+      <h1>Pixel perfect design aim with interactivity</h1>
       <p className={styles.ingress}>
-        This website calculates the number of words and letters that the users put in the field. Time and date is shown in the top bar and adds to the dashboard feeling.
+        This app calculates the number of words and letters that the users put in the field. Time and date is shown in the top bar and adds to the dashboard feeling.
       </p>
       <h2>Dashboard design</h2>
       <div style={{ width: "100%", display: "flex", margin: "0px 0 40px", alignItems: "center", flexDirection: "column", justifyContent: "center", }}>
